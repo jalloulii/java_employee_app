@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:weightSum="100"
+    android:layout_height="80dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:id="@+id/nameId"
+
+        android:text="Mohsen Ben Ali"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#111"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:id="@+id/emailId"
+
+        android:text="mohsen@gmail.com"
+        android:textSize="18sp"
+        android:fontFamily="casual"/>
+
+</LinearLayout>
